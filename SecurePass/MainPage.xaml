@@ -1,0 +1,30 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SecurePass.MainPage"
+             BackgroundColor="{DynamicResource SecondaryColor}">
+
+    <ScrollView>
+        <!-- Create a Login screen for the user to securely login.-->
+
+        <StackLayout>
+            <Frame CornerRadius="30" BackgroundColor="Red">
+                <StackLayout>
+                    <!--User-->
+                    <Label Text="hh "/>
+                    <Entry x:Name="entUser"/>
+                    <!--pass-->
+                    <Label Text="hh "/>
+                    <Entry x:Name="enPass"/>
+                    <!--confirm pass-->
+                    <Label Text="hh "/>
+                    <Entry x:Name="entPassCheck"/>
+                    <!--email-->
+                    <Label Text="hh "/>
+                    <Entry x:Name="entEmail"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+        
+        
+    </ScrollView>
+</ContentPage>
